@@ -6,7 +6,7 @@ bower install
 npm start
 ```
 
-move /server folder to your server, this is where the php files are
+Copy classes to ```/app/server/classes``` calls to the API are the format:  ```api.php?class=classeName&function=getId&id=1```
 
 # angular-seed — the seed for AngularJS apps
 
@@ -94,16 +94,15 @@ Now browse to the app at `http://localhost:8000/app/index.html`.
         directives.js   --> application directives
         filters.js      --> custom angular filters
         services.js     --> custom angular services
-      partials/             --> angular view partials (partial html templates)
+      partials/         --> angular view partials (partial html templates)
         partial1.html
         partial2.html
-
     test/               --> test config and source files
-      protractor-conf.js    --> config file for running e2e tests with Protractor
-      e2e/                  --> end-to-end specs
+      protractor-conf.js--> config file for running e2e tests with Protractor
+      e2e/              --> end-to-end specs
         scenarios.js
-      karma.conf.js         --> config file for running unit tests with Karma
-      unit/                 --> unit level specs/tests
+      karma.conf.js     --> config file for running unit tests with Karma
+      unit/             --> unit level specs/tests
         controllersSpec.js      --> specs for controllers
         directivessSpec.js      --> specs for directives
         filtersSpec.js          --> specs for filters
