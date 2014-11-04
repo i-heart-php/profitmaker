@@ -1,15 +1,19 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
+  "name": "profitmaker",
+  "description": "A starter project using AngularJS",
   "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "homepage": "",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "angular": "1.2.x",
-    "angular-route": "1.2.x",
-    "angular-loader": "1.2.x",
-    "angular-mocks": "~1.2.x",
-    "html5-boilerplate": "~4.3.0"
+    "angular": "latest",
+    "angular-ui": "latest",
+    "ui-router": "latest",
+    "angular-bootstrap": "latest",
+    "angular-route": "latest",
+    "angular-loader": "latest",
+    "smart-table": "latest",
+    "angular-strap": "latest",
+    "angular-loading-bar": "latest"
   }
 }
