@@ -59,7 +59,7 @@ Behind the scenes this will also call `bower install`.  You should find that you
 folders in your project.
 
 * `node_modules` - contains the npm packages for the tools we need
-* `app/bower_components` - contains the angular framework files
+* `app/lib` - contains the angular framework files
 
 *Note that the `bower_components` folder would normally be installed in the root folder but
 angular-seed changes this location through the `.bowerrc` file.  Putting it in the app folder makes
@@ -86,6 +86,8 @@ Now browse to the app at `http://localhost:8000/app/index.html`.
       img/              --> image files
       index.html        --> app layout file (the main html template file of the app)
       index-async.html  --> just like index.html, but loads js files asynchronously
+      server/           --> PHP Server and API
+      lib/              --> 3rd Party Libaries
       js/               --> javascript files
         app.js          --> application
         controllers.js  --> application controllers
